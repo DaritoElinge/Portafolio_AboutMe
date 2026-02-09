@@ -440,3 +440,132 @@ footer {
 .navbar-burger {
     color: var(--azul-profundo);
 }
+
+
+/* ===============================
+   RESPONSIVE - TABLET Y MÓVIL
+   =============================== */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-header {
+        min-height: auto;
+        padding: 6rem 1rem 4rem;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .profile-image {
+        width: 260px;
+        height: 260px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-section,
+    .skills-section,
+    .projects-section,
+    .experience-section,
+    .contact-section {
+        padding: 4rem 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .skill-card,
+    .project-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .project-header,
+    .project-body {
+        padding: 1.5rem;
+    }
+
+    .project-title {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-tech {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        padding-left: 1rem;
+    }
+
+    .timeline::before {
+        left: 5px;
+    }
+
+    .timeline-item {
+        padding-left: 1.5rem;
+    }
+
+    .timeline-item::before {
+        left: -1.1rem;
+    }
+
+    .timeline-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-form,
+    .contact-info {
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-icon {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        background: white;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-item {
+        padding: 1rem;
+        text-align: center;
+    }
+}
