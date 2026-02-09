@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dary Pincay - Ingeniero de Software</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#" style="font-weight: 700; font-size: 1.3rem; color: var(--azul-profundo);">
+                    DP
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#inicio">Inicio</a>
+                    <a class="navbar-item" href="#sobre-mi">Sobre mí</a>
+                    <a class="navbar-item" href="#habilidades">Habilidades</a>
+                    <a class="navbar-item" href="#proyectos">Proyectos</a>
+                    <a class="navbar-item" href="#experiencia">Experiencia</a>
+                    <a class="navbar-item" href="#contacto">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero hero-header is-fullheight">
+        <div class="hero-body">
+            <div class="container hero-content">
+                <div class="columns is-vcentered">
+                    <div class="column is-6 has-text-centered-mobile">
+                        <h1 class="hero-title">¡Hola! Soy<br><span style="color: var(--turquesa);">Dary Pincay</span></h1>
+                        <p class="hero-subtitle">Ingeniero de Software</p>
+                        <p class="hero-description">
+                            Profesional apasionado por el análisis de datos y desarrollo de soluciones tecnológicas. 
+                            Comprometido con la innovación, el aprendizaje continuo y la creación de software de calidad.
+                        </p>
+                        <button class="cta-button" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">
+                            Contáctame
+                        </button>
+                        <div class="social-links">
+                            <a href="https://github.com/darypincay" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/dary-pincay-pinta-663a07394/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:dpincayp89@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="column is-6 has-text-centered">
+                        <div class="profile-image-container">
+                            <img src="img/fotoportafolio.png" alt="Dary Pincay" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mi -->
+    <section id="sobre-mi" class="about-section">
+        <div class="container">
+            <div class="has-text-centered">
+                <h2 class="section-title">Sobre mí</h2>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-10">
+                    <div class="about-card fade-in">
+                        <h3 class="title is-4" style="color: white; margin-bottom: 1.5rem;">
+                            <i class="fas fa-user-graduate" style="color: var(--turquesa); margin-right: 10px;"></i>
+                            Perfil Profesional
+                        </h3>
+                        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">
+                            Soy un profesional con sólida formación en Ingeniería de Software, graduado de la Universidad Estatal de Milagro (UNEMI). 
+                            Me caracterizo por mi pensamiento analítico, capacidad para resolver problemas complejos y adaptabilidad a nuevos entornos tecnológicos.
+                        </p>
+                        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">
+                            Mi enfoque se centra en el desarrollo de soluciones tecnológicas eficientes, la gestión de calidad del software y el análisis de datos. 
+                            Soy una persona responsable, organizada y orientada al trabajo en equipo, con un firme compromiso por el aprendizaje continuo.
+                        </p>
+                        <div class="columns is-mobile is-multiline" style="margin-top: 2rem;">
+                            <div class="column is-half-mobile is-one-third-tablet">
+                                <div style="text-align: center;">
+                                    <i class="fas fa-lightbulb" style="font-size: 2rem; color: var(--turquesa); margin-bottom: 0.5rem;"></i>
+                                    <p style="font-weight: 600;">Pensamiento Analítico</p>
+                                </div>
+                            </div>
+                            <div class="column is-half-mobile is-one-third-tablet">
+                                <div style="text-align: center;">
+                                    <i class="fas fa-puzzle-piece" style="font-size: 2rem; color: var(--turquesa); margin-bottom: 0.5rem;"></i>
+                                    <p style="font-weight: 600;">Resolución de Problemas</p>
+                                </div>
+                            </div>
+                            <div class="column is-half-mobile is-one-third-tablet">
+                                <div style="text-align: center;">
+                                    <i class="fas fa-users" style="font-size: 2rem; color: var(--turquesa); margin-bottom: 0.5rem;"></i>
+                                    <p style="font-weight: 600;">Trabajo en Equipo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="skills-section">
+        <div class="container">
+            <div class="has-text-centered">
+                <h2 class="section-title">Habilidades & Competencias</h2>
+            </div>
+            <div class="columns is-multiline">
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon"><i class="fas fa-handshake"></i></div>
+                        <h3 class="skill-name">Resolución de Conflictos</h3>
+                        <p class="skill-level">Nivel: 95%</p>
+                    </div>
+                </div>
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h3 class="skill-name">Conocimiento Especializado</h3>
+                        <p class="skill-level">Nivel: 85%</p>
+                    </div>
+                </div>
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon"><i class="fas fa-balance-scale"></i></div>
+                        <h3 class="skill-name">Negociación</h3>
+                        <p class="skill-level">Nivel: 90%</p>
+                    </div>
+                </div>
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                        <h3 class="skill-name">Comunicación Efectiva</h3>
+                        <p class="skill-level">Nivel: 90%</p>
+                    </div>
+                </div>
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h3 class="skill-name">Python & Django</h3>
+                        <p class="skill-level">Desarrollo Backend</p>
+                    </div>
+                </div>
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3 class="skill-name">MySQL & Bases de Datos</h3>
+                        <p class="skill-level">Gestión de Datos</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Idiomas -->
+            <div class="columns is-centered" style="margin-top: 4rem;">
+                <div class="column is-8">
+                    <div class="box" style="background: white; border-radius: 15px; padding: 2.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                        <h3 class="title is-4 has-text-centered" style="color: var(--azul-profundo); margin-bottom: 2rem;">
+                            <i class="fas fa-language" style="color: var(--turquesa); margin-right: 10px;"></i>
+                            Idiomas
+                        </h3>
+                        <div class="columns">
+                            <div class="column">
+                                <p style="font-size: 1.1rem; font-weight: 600; color: var(--azul-profundo); margin-bottom: 0.5rem;">
+                                    <i class="fas fa-circle" style="color: var(--coral); margin-right: 8px; font-size: 0.6rem;"></i>
+                                    Español
+                                </p>
+                                <p style="color: var(--azul-medio);">Nativo</p>
+                            </div>
+                            <div class="column">
+                                <p style="font-size: 1.1rem; font-weight: 600; color: var(--azul-profundo); margin-bottom: 0.5rem;">
+                                    <i class="fas fa-circle" style="color: var(--turquesa); margin-right: 8px; font-size: 0.6rem;"></i>
+                                    Inglés
+                                </p>
+                                <p style="color: var(--azul-medio);">Nivel Intermedio (B1)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="projects-section">
+        <div class="container">
+            <div class="has-text-centered">
+                <h2 class="section-title">Proyectos Destacados</h2>
+            </div>
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                            <h3 class="project-title">Sistema de Gestión Financiera</h3>
+                        </div>
+                        <div class="project-body">
+                            <p style="color: var(--azul-medio); margin-bottom: 1rem;">
+                                Aplicación web para la gestión y control de ingresos y gastos con generación de reportes detallados.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <div class="project-icon"><i class="fas fa-laptop"></i></div>
+                            <h3 class="project-title">Sistema de Reserva de Chromebooks</h3>
+                        </div>
+                        <div class="project-body">
+                            <p style="color: var(--azul-medio); margin-bottom: 1rem;">
+                                Sistema completo para el registro, préstamo y control de equipos tecnológicos institucionales.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <div class="project-icon"><i class="fas fa-brain"></i></div>
+                            <h3 class="project-title">Clasificación IA para Exportación</h3>
+                        </div>
+                        <div class="project-body">
+                            <p style="color: var(--azul-medio); margin-bottom: 1rem;">
+                                Modelo de Deep Learning con CNN para clasificación y control de calidad en exportación de banano.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">TensorFlow</span>
+                                <span class="tech-tag">Google Colab</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="experience-section">
+        <div class="container">
+            <div class="has-text-centered">
+                <h2 class="section-title">Experiencia & Formación</h2>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-10">
+                    <div class="timeline">
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-card">
+                                <p class="timeline-date">2021 - 2025</p>
+                                <h3 class="timeline-title">Ingeniería de Software</h3>
+                                <p class="timeline-subtitle">Universidad Estatal de Milagro (UNEMI)</p>
+                                <p style="color: var(--azul-medio);">
+                                    Formación integral enfocada en eficiencia, gestión y calidad del software. 
+                                    Desarrollo de competencias en análisis de sistemas, programación y gestión de proyectos tecnológicos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-card">
+                                <p class="timeline-date">2024</p>
+                                <h3 class="timeline-title">Prácticas Preprofesionales</h3>
+                                <p class="timeline-subtitle">Universidad Estatal de Milagro (UNEMI) - Soporte Técnico y Sistemas</p>
+                                <ul style="color: var(--azul-medio); margin-top: 1rem; padding-left: 1.5rem;">
+                                    <li>Gestión y registro del uso, préstamo y reservas de Chromebooks</li>
+                                    <li>Documentación de procesos de mantenimiento y control de equipos</li>
+                                    <li>Atención a usuarios internos y resolución de incidencias técnicas</li>
+                                    <li>Trabajo colaborativo en proyectos de infraestructura tecnológica</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="has-text-centered">
+                <h2 class="section-title">Contáctame</h2>
+            </div>
+            <div class="columns is-vcentered">
+                <div class="column is-6">
+                    <form class="contact-form">
+                        <div class="field">
+                            <label class="label" style="color: white;">Nombre completo</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Tu nombre" required>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <label class="label" style="color: white;">Email</label>
+                            <div class="control">
+                                <input class="input" type="email" placeholder="tu@email.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <label class="label" style="color: white;">Asunto</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Asunto del mensaje" required>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <label class="label" style="color: white;">Mensaje</label>
+                            <div class="control">
+                                <textarea class="textarea" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <div class="control">
+                                <button type="submit" class="button is-fullwidth cta-button">
+                                    Enviar mensaje
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="column is-6">
+                    <div class="contact-info">
+                        <h3 style="font-size: 1.8rem; color: var(--azul-profundo); margin-bottom: 2rem; font-weight: 600;">
+                            Información de contacto
+                        </h3>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 style="font-weight: 600; color: var(--azul-profundo); margin-bottom: 0.3rem;">Email</h4>
+                                <p style="color: var(--azul-medio);">dpincayp89@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div>
+                                <h4 style="font-weight: 600; color: var(--azul-profundo); margin-bottom: 0.3rem;">LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/dary-pincay-pinta-663a07394/" target="_blank" 
+                                style="color: var(--azul-medio); text-decoration: none;">
+                                    Dary Pincay Pinta
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div>
+                                <h4 style="font-weight: 600; color: var(--azul-profundo); margin-bottom: 0.3rem;">GitHub</h4>
+                                <a href="https://github.com/darypincay" target="_blank" 
+                                style="color: var(--azul-medio); text-decoration: none;">
+                                    @darypincay
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 style="font-weight: 600; color: var(--azul-profundo); margin-bottom: 0.3rem;">Ubicación</h4>
+                                <p style="color: var(--azul-medio);">Guayaquil, Ecuador</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Script (Javascript) -->
+     <script src="script.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-12 has-text-centered">
+                    <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+                        <strong style="color: var(--turquesa);">Dary Pincay</strong> - Ingeniero de Software
+                    </p>
+                    <div class="social-links" style="margin-bottom: 1rem;">
+                        <a href="https://github.com/darypincay" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/dary-pincay-pinta-663a07394/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:dpincayp89@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <p style="color: rgba(255, 255, 255, 0.7); font-size: 0.95rem;">
+                        © 2025 Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
